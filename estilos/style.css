@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #BBDC56; /*textos cabeçalho, icones, atalhos, botoes*/
+    --cor2: #DAAD86; /*textos cabeçalho menores, icones mini, cor de fundo em barras divisórias texto branco.*/
+    --cor3: #262626;  /*background header, textos geral*/
+    
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: var(--cor3);
+    color: white;
+} 
+
+header > img {
+    
+}
+
+h1 {
+    padding: 20px 0px;
+    font-family: gabriola ;
+	color: #BBDC56 ;
+	font-size: 40px ;
+	line-height: 1px ;
+	font-weight: 500 ;
+	font-style: normal ;
+	text-decoration: none;
+}
