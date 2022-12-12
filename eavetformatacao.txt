@@ -1,0 +1,20 @@
+Eavet formatação.
+
+titulo:
+	font-family: gabriola !important;
+	color: rgb(25, 119, 2) !important;
+	font-size: 40px !important;
+	line-height: 1px !important;
+	font-weight: 500 !important;
+	font-style: normal !important;
+	text-decoration: none !important;
+
+paleta site amostra
+#BBDC56 textos cabeçalho, icones, atalhos, botoes
+#DAAD86 textos cabeçalho menores, icones mini, cor de fundo em barras divisórias texto branco.
+#262626 background header, textos geral
+
+paleta site eavet hoje
+#0170B9 botoes e links midia social, numero telefone
+#197702 cor nome site
+#302629 bacground imagens 
