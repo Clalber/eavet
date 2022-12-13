@@ -11,6 +11,16 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    background-color:  #e9dcd0;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
 header {
     background-color: var(--cor3);    
     color: white;
@@ -31,4 +41,32 @@ h1 {
 	font-weight: 500 ;
 	font-style: normal ;
 	text-decoration: none;
+}
+
+h2 {padding: 20px 0px;}
+
+section#imagem {
+    background-color: #262626;
+    background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
+    color: white;
+    background-attachment: fixed;
+    height: 400px;
+}
+section#imagem > div {
+    background-color: #2626264d;
+    height: 390px;
+    padding: 10px;
+}
+
+section#colunas {
+    background-color: #acd3d8;
+    columns: 4;
+}
+
+section#colunas > div {
+    width: 180px;
+    border: 1px solid var(--cor2);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
 }
