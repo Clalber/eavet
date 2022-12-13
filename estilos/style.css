@@ -19,7 +19,8 @@ main {
     background-color: white;
     max-width: 900px;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.387);
 }
 header {
     background-color: var(--cor3);    
@@ -33,29 +34,36 @@ header > img {
 
 h1 {
     display: inline-block;
-    padding: 0px 0px 50px 0px;
     font-family: gabriola ;
 	color: #BBDC56 ;
 	font-size: 40px ;
-	line-height: 1px ;
 	font-weight: 500 ;
 	font-style: normal ;
-	text-decoration: none;
 }
 
-h2 {padding: 20px 0px;}
+h2 {padding: 10px 0px;}
 
-section#imagem {
+section.imagem {
+    border-radius: 15px 0px;
     background-color: #262626;
     background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
+    background-size: cover;
     color: white;
     background-attachment: fixed;
-    height: 400px;
+    box-shadow: inset 6px 6px 13px opx rgba(0, 0, 0, 0.5);
+    
 }
-section#imagem > div {
+section.imagem > div {
+    border-radius: 15px 0px;
     background-color: #2626264d;
-    height: 390px;
-    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+    padding: 14px;
+    height: 500px;
+}
+div.forte {
+    padding: 20px 20px;
+    font-size: 1.5em;
+    margin-top: 100px; 
 }
 
 section#colunas {
