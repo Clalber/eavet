@@ -66,14 +66,10 @@ div.forte {
     margin-top: 100px; 
 }
 
-section#colunas {
-    background-color: #acd3d8;
-    columns: 4;
-}
-
 section#colunas > div {
     width: 180px;
     border: 1px solid var(--cor2);
+    border-radius: 10px 0px;
     margin: 10px;
     padding: 10px;
     display: inline-block;
