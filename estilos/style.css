@@ -52,7 +52,7 @@ section.imagem {
     background-size: cover;
     color: white;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px opx rgba(0, 0, 0, 0.5);
+    box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
     
 }
 section.imagem > div {
