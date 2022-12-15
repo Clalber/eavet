@@ -31,7 +31,7 @@ header {
 
 header > img {
     padding: 10px;
-    border-radius: 155px;
+    border-radius: 50%;
 }
 
 h1 {
@@ -98,3 +98,9 @@ footer > a {
     font-weight: bold;
     text-align: right;
 }
+
+footer > a:hover {
+    background-image: url(../imagens/link-whatsapp.png);
+    padding: 170px 30px 10px 200px;
+    
+    }
