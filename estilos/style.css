@@ -85,6 +85,14 @@ section#colunas > div {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
 }
 
+img {
+   max-width: 400px;
+   border-radius: 15px 0px;
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.37);
+   padding: 20px;
+   margin: 10px;
+}
+
 footer {
     background-color: #262626;
     height: 40px;
