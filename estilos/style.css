@@ -44,29 +44,41 @@ h1 {
 	font-style: normal ;
 }
 
-h2 {padding: 10px 0px;}
-
+h2 {
+    padding: 10px 0px;
+}
 section.imagem {
+    background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
+    background-attachment: fixed;
+}
+section.luna {
+    background-image: url(../imagens/amor-de-pet.jpg);
+    height: 420px;
+}
+
+section.imagem, section.luna {
     border-radius: 15px 0px;
     background-color: #262626;
-    background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
     background-size: cover;
     color: white;
-    background-attachment: fixed;
     box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
     
 }
-section.imagem > div {
+section.imagem > div, section.luna > div {
     border-radius: 15px 0px;
     background-color: #2626264d;
     text-shadow: 1px 1px 0px black;
     padding: 14px;
     height: 420px;
 }
-
+section.luna > div {
+    width: auto;
+    height: auto;
+}
 section#social > a > img {
     border-radius: 50%;
     width: 80px;
+    padding: 0px;
     margin-right: 20px;
 }
 div.forte {
