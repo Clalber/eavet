@@ -2,11 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Gabriela&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" );
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sriracha&display=swap');
+
 :root {
     --cor1: #BBDC56; /*textos cabeçalho, icones, atalhos, botoes*/
     --cor2: #DAAD86; /*textos cabeçalho menores, icones mini, cor de fundo em barras divisórias texto branco.*/
     --cor3: #262626;  /*background header, textos geral*/
-    
+    --font1: 'Satisfy', cursive;
+    --font2: Gabriola, 'Gabriela', serif;
+
 }
 
 * {
@@ -37,7 +41,7 @@ header > img {
 
 h1 {
     display: inline-block;
-    font-family: Gabriola, 'Gabriela', serif;
+    font-family: var(--font1);
 	color: #BBDC56 ;
 	font-size: 40px ;
 	font-weight: 500 ;
