@@ -55,6 +55,16 @@ section.imagem {
     background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
     background-attachment: fixed;
 }
+div.link {
+    text-align: center;
+    margin: 50px 0px;
+}
+a.avaliacoes {
+    color: var(--cor3);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3em;
+}
 section.luna {
     background-image: url(../imagens/amor-de-pet.jpg);
     height: 420px;
@@ -90,15 +100,18 @@ div.forte {
     font-size: 1.5em;
     margin-top: 100px; 
 }
-
+section#colunas{
+    text-align: center;
+}
 section#colunas > div {
-    width: 180px;
+    width: 280px;
     border: 2px solid var(--cor2);
     border-radius: 10px 0px;
     margin: 10px;
     padding: 10px;
     display: inline-block;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
+    
 }
 
 img {
