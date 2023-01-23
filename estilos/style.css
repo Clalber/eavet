@@ -51,6 +51,28 @@ h1 {
 h2 {
     padding: 10px 0px;
 }
+p {
+    border-top: 20px;
+}
+p.btn {
+    text-align: right;
+}
+
+a.btn {
+    background-color: #44C256;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    font-weight: bold;
+    text-align: right;
+}
+
+a.btn:hover {
+    border: 3px solid rgba(255, 255, 255, 0.726);
+    }
 section.imagem {
     background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
     background-attachment: fixed;
@@ -58,6 +80,8 @@ section.imagem {
 div.link {
     text-align: center;
     margin: 50px 0px;
+    max-width: 350px;
+    width: 100%;
 }
 
 a.avaliacoes {
@@ -131,21 +155,3 @@ footer {
     width: 100%;
     text-align: right;
 }
-
-footer > a {
-    background-color: #44C256;
-    color: white;
-    padding: 10px 22px;
-    border-radius: 20px;
-    text-decoration: none;
-    margin-right: 20px;
-    
-    font-weight: bold;
-    text-align: right;
-}
-
-footer > a:hover {
-   /* background-image: url(../imagens/link-whatsapp.png);
-    padding: 170px 30px 10px 200px;*/
-    border: 3px solid rgba(255, 255, 255, 0.726);
-    }
