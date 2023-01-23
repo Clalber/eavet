@@ -80,8 +80,9 @@ section.imagem {
 div.link {
     text-align: center;
     margin: 50px 0px;
-    
     width: 100%;
+    display: block;
+    margin: auto;
 }
 
 a.avaliacoes {
