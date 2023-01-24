@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" );
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sriracha&display=swap');
+
+:root {
+    --cor1: #BBDC56; /*textos cabeçalho, icones, atalhos, botoes*/
+    --cor2: #DAAD86; /*textos cabeçalho menores, icones mini, cor de fundo em barras divisórias texto branco.*/
+    --cor3: #262626;  /*background header, textos geral*/
+    --font1: 'Satisfy', cursive;
+    --font2: Gabriola, 'Gabriela', serif;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color:  #e9dcd0;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 15px 15px 50px 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.387);
+}
+header {
+    background-color: var(--cor3);    
+    color: white;
+} 
+
+header > img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h1 {
+    display: inline-block;
+    font-family: var(--font1);
+	color: #BBDC56 ;
+    padding-left: 10px;
+	font-size: 50px;
+	font-weight: 500 ;
+	font-style: normal ;
+}
+
+h2 {
+    padding: 10px 0px;
+}
+p {
+    border-top: 20px;
+}
+p.btn {
+    text-align: right;
+}
+/*
+a.btn {
+    background-color: #44C256;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    font-weight: bold;
+    text-align: right;
+}*/
+
+a.btn:hover {
+    border: 3px solid rgba(255, 255, 255, 0.726);
+    }
+section.imagem {
+    background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
+    background-attachment: fixed;
+}
+div.link {
+    text-align: center;
+    margin: 50px 0px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+a.avaliacoes {
+    color: var(--cor3);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+section.imagem {
+    border-radius: 15px 0px;
+    background-color: #262626;
+    background-size: cover;
+    color: white;
+    box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
+    
+}
+section.imagem > div {
+    border-radius: 15px 0px;
+    background-color: #2626264d;
+    text-shadow: 1px 1px 0px black;
+    padding: 14px;
+    height: 420px;
+}
+section.luna > div {
+    width: auto;
+    height: auto;
+}
+section#social > a > img {
+    border-radius: 50%;
+    width: 80px;
+    padding: 0px;
+    margin-right: 20px;
+}
+div.forte {
+    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 100px; 
+}
+section#colunas{
+    text-align: center;
+}
+section#colunas > div {
+    width: 280px;
+    border: 2px solid var(--cor2);
+    border-radius: 10px 0px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.323);
+    
+}
+
+img {
+   max-width: 400px;
+   border-radius: 15px 0px;
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.37);
+   padding: 20px;
+   margin: 10px;
+}
+
+footer {
+    background-color: #262626;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
