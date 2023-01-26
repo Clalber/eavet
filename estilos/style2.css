@@ -48,15 +48,6 @@ header > h1 {
 	font-style: normal ;
 }
 
-h2 {
-    padding: 10px 0px;
-}
-
-p {
-    border-top: 0px;
-}
-
-
 a.btn-success {
     background-color: #44C256;
     color: white;
@@ -89,6 +80,9 @@ a.avaliacoes {
     margin: 10px;
     font-size: 1.3em;
 }
+a.link {
+    border-radius: 40%;
+}
 
 section.imagem {
     border-radius: 15px 0px;
@@ -103,12 +97,9 @@ section.imagem > div {
     background-color: #2626264d;
     text-shadow: 1px 1px 0px black;
     padding: 14px;
-    height: 480px;
+    /*height: 480px;*/
 }
-section.luna > div {
-    width: auto;
-    height: auto;
-}
+
 section#social > a > img {
     border-radius: 50%;
     width: 80px;
@@ -136,7 +127,7 @@ section#colunas > div {
 }
 
 img {
-   max-width: 400px;
+   max-width: 280px;
    border-radius: 15px 0px;
    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.37);
    padding: 20px;
