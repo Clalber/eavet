@@ -38,7 +38,7 @@ header > img {
     border-radius: 50%;
 }
 
-header > h1 {
+h1 {
     display: inline-block;
     font-family: var(--font1);
 	color: #BBDC56 ;
@@ -48,13 +48,24 @@ header > h1 {
 	font-style: normal ;
 }
 
-a.btn-success {
+h2 {
+    padding: 10px 0px;
+}
+p {
+    border-top: 20px;
+}
+p.btn {
+    text-align: right;
+}
+
+a.btn {
     background-color: #44C256;
     color: white;
     padding: 10px 22px;
     border-radius: 20px;
     text-decoration: none;
-    margin-right: 20px;    
+    margin-right: 20px;
+    
     font-weight: bold;
     text-align: right;
 }
@@ -69,7 +80,7 @@ section.imagem {
 div.link {
     text-align: center;
     margin: 50px 0px;
-    max-width: 100%;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -80,11 +91,12 @@ a.avaliacoes {
     margin: 10px;
     font-size: 1.3em;
 }
-a.link {
-    border-radius: 40%;
+section.luna {
+    background-image: url(../imagens/amor-de-pet.jpg);
+    height: 420px;
 }
 
-section.imagem {
+section.imagem, section.luna {
     border-radius: 15px 0px;
     background-color: #262626;
     background-size: cover;
@@ -92,14 +104,17 @@ section.imagem {
     box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
     
 }
-section.imagem > div {
+section.imagem > div, section.luna > div {
     border-radius: 15px 0px;
     background-color: #2626264d;
     text-shadow: 1px 1px 0px black;
     padding: 14px;
-    /*height: 480px;*/
+    height: 420px;
 }
-
+section.luna > div {
+    width: auto;
+    height: auto;
+}
 section#social > a > img {
     border-radius: 50%;
     width: 80px;
@@ -109,9 +124,8 @@ section#social > a > img {
 div.forte {
     padding: 10px;
     font-size: 1.5em;
-    margin-top: 15px; 
+    margin-top: 100px; 
 }
-
 section#colunas{
     text-align: center;
 }
@@ -127,7 +141,7 @@ section#colunas > div {
 }
 
 img {
-   max-width: 280px;
+   max-width: 400px;
    border-radius: 15px 0px;
    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.37);
    padding: 20px;
