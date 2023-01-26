@@ -66,22 +66,15 @@ section.imagem {
     background-image: url(../imagens/golden-retriever-dog-by-Karen\ Arnold.jpg);
     background-attachment: fixed;
 }
-div.link {
-    text-align: center;
-    margin: 50px 0px;
-    max-width: 100%;
-    display: block;
-    margin: auto;
-}
+
 
 a.avaliacoes {
     color: var(--cor3);
     text-decoration: none;
     margin: 10px;
     font-size: 1.3em;
-}
-a.link {
-    border-radius: 40%;
+    display: block;
+    text-align: center;
 }
 
 section.imagem {
